@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(199, 196, 196);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(118, 0, 93);
+  border-radius: 40px;
+}
+
+.template-color {
+  color: rgb(255, 68, 0);
+}
+.btn-color {
+  background-color: rgba(255, 68, 0, 0.904);
+  color: rgb(255, 255, 255);
+}
+
+.btn-color:hover {
+  background-color: rgb(255, 115, 0);
+  color: rgb(255, 255, 255);
+}
+
+.loading_thing {
+  animation: Gradient 3s ease infinite;
+}
+@keyframes Gradient {
+  0% {
+    /* background-position: 50% 0%; */
+    opacity: 0.5;
+  }
+  50% {
+    /* background-position: 50% 100%; */
+    opacity: 1;
+  }
+  100% {
+    /* background-position: 50% 0%; */
+    opacity: 0.5;
+  }
+}

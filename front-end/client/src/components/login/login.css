@@ -1,0 +1,16 @@
+
+
+.login_form {
+    background-color: white;
+}
+
+.login_form button {
+    background-color: #5623ad;
+}
+
+.login_form input {
+    outline: none;
+    border: 0px;
+    background-color: #f7f7f7;
+}
+

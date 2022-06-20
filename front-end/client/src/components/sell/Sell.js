@@ -77,7 +77,7 @@ export const Sell = () => {
 
       setImagesList([]);
       const idd = await realEstateContract.getCurrentId();
-
+      
       await images.map((item) => {
         const imageRef = ref(
           storage,
